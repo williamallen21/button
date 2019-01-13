@@ -3,7 +3,7 @@
 int _tmain(int argc, _TCHAR* argv[])
 {
     MSG msg;
-    //if you add WS_CHILD flag,CreateWindow will fail because there is no parent window.
+
     HWND hWnd = CreateWindow(TEXT("button"), TEXT("Easy"), WS_VISIBLE | WS_POPUP,
         10, 10, 80, 25, NULL, NULL, NULL,  NULL);
 
